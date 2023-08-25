@@ -1,0 +1,239 @@
+:root {
+    /* Colours */
+    --limegreen100: rgb(160, 200, 90);
+    --limegreen75: rgb(160, 200, 90, .75);
+    --limegreen50: rgb(160, 200, 90, .50);
+    --limegreen33: rgb(160, 200, 90, .33);
+    --darkgreen100: rgb(0, 103, 62);
+    --darkgreen75:rgb(0, 103, 62, .75);
+    --darkgreen50:rgb(0, 103, 62, .50);
+    --darkgreen33:rgb(0, 103, 62, .33);
+    --orange100: rgb(242, 101, 34);
+    --orange75: rgb(242, 101, 34, .75);
+    --orange50: rgb(242, 101, 34, .50);
+    --orange33: rgb(242, 101, 34, .33);
+    --darkgray: rgb(76, 76, 76);
+    --mediumgray: rgb(153, 153, 153);
+    --lightgray: rgb(212, 212, 212);
+    --white: rgb(255, 255, 255);
+}
+
+#embed-youtube-container {
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+#embed-youtube-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+/* This works with my audio bbedit text clipping */
+audio {
+	width: 80%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+controls {
+	color: var(--limegreen100);
+}
+/* END */
+
+input {
+    display: block;
+    width: 90%;
+    border: 1px solid var(--limegreen100);
+}
+section.content .button-wrapper {
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+}
+section.content .button {
+  background-color: var(--white);
+  border: solid 4px var(--limegreen100);
+  color: var(--limegreen100);
+  padding: .5rem 5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.content a.button:hover {
+    background-color: var(--limegreen33);
+    color: var(--limegreen100);
+    border: solid 4px var(--darkgreen100)
+}
+section.submission .button-wrapper {
+    text-align: center;
+    margin: 1rem 0;
+}
+section.submission .button {
+  background-color: var(--white);
+  border: solid 4px var(--limegreen100);
+  color: var(--limegreen100);
+  padding: .5rem 5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.submission a.button:hover {
+    background-color: var(--limegreen100);
+    color: white;
+    border: solid 4px var(--darkgreen100)
+}
+.borderlimegreen1 {
+    border: 1px solid var(--limegreen100);
+}
+
+.borderlimegreen2 {
+    border: 2px solid var(--limegreen100);
+}
+
+.borderlimegreen3 {
+    border: 3px solid var(--limegreen100);
+}
+
+.borderdarkgreen1 {
+    border:  1px solid var(--darkgreen100);
+}
+
+.borderdarkgreen2 {
+    border:  2px solid var(--darkgreen100);
+}
+
+.borderdarkgreen3 {
+    border:  3px solid var(--darkgreen100);
+}
+.borderlightgrey1 {
+    border: 1px solid var(--lightgray);
+}
+
+.borderlightgrey2 {
+    border: 2px solid var(--lightgray);
+}
+
+.borderlightgrey3 {
+    border: 3px solid var(--lightgray);
+}
+
+.borderdarkgrey1 {
+    border: 1px solid var(--darkgray);
+}
+
+.submit::before {
+    content: " ";
+    display: inline-block;
+    width: 1.0rem;
+    height: 1.0rem;
+    margin-right: 0.5rem;
+    background: url("/images/svg/icon-submit.svg") no-repeat left bottom;
+}
+
+.attentionbox {
+    display: block;
+    border: solid 1px var(--limegreen100);
+    margin-bottom: 1rem;
+}
+
+.attentionbox ul {
+    margin-left: 1.5rem;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.attentionbox li::before {
+    content: "•";
+    display: inline-block;
+    margin-right: .5em;
+    margin-left: -1em;
+    color: var(--limegreen100);
+}
+
+.tip {
+    background: url('/images/svg/icon-tip.svg');
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: 0.5rem 0.5rem;
+    padding: .5rem .5rem .5rem 3rem;
+}
+
+.achtung {
+    background: url('/images/svg/icon-achtung.svg');
+    background-repeat: no-repeat;
+    background-size: 2.0rem;
+    background-position: 10px center;
+    padding: .5rem .5rem .5rem 3rem;
+    border: solid 1px var(--orange100);
+}
+
+.download {
+    background: url('/images/svg/icon-download.svg');
+    background-repeat: no-repeat;
+    background-size: 2.0rem;
+    background-position: 10px center;
+    padding: .5rem .5rem .5rem 3rem;
+    border: solid 1px var(--limegreen100);
+}
+
+.reminder {
+    background: url('/images/svg/icon-reminder.svg');
+    background-repeat: no-repeat;
+    background-size: 2.0rem;
+    background-position: 10px center;
+    padding: .5rem .5rem .5rem 3rem;
+    border: solid 1px var(--limegreen100);
+}
+
+section.submission .reminder { border: solid 1px var(--darkgreen100) }
+.shortcut {
+    background: url('/images/svg/icon-shortcut.svg');
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: 0.5rem 0.5rem;
+    padding: .5rem .5rem .5rem 3rem;
+}
+
+.filename {
+    background: url('/images/svg/icon-filename.svg');
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: 0.5rem 0.5rem;
+    padding: .5rem .5rem .5rem 2.5rem;
+}
+
+.foldername {
+    background: url('/images/svg/icon-foldername.svg');
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: 0.5rem 0.5rem;
+    padding: .5rem .5rem .5rem 2.5rem;
+}
+
+.zipfile {
+    background: url('/images/svg/icon-zipfile.svg');
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: 0.5rem 0.5rem;
+    padding: .5rem .5rem .5rem 2.5rem;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 103, 62, 0.3);
+}

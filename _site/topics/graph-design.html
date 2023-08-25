@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>
+	  
+		AC Computer Graphics : Graph Design
+	  
+	</title>
+	<meta name="generator" content="BBEdit 11.5" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="rgb(160, 200, 90)">
+	<link href="/css/layout.css" rel="stylesheet">
+	<link href="/css/typography.css" rel="stylesheet">
+  <link href="/css/elements.css" rel="stylesheet">
+
+<!-- Social Tags -->
+
+<!-- for Google -->
+<meta name="description" content="Boring graphs can really put the kibosh on a great design. As a designer, one of the most difficult and rewarding jobs is to transform boring data into exciting, engaging visuals. The challenge is to present so many numbers in a compelling way." />
+
+<meta name="author" content="Alain Paradis, Algonquin College" />
+<meta name="copyright" content="Alain Paradis, Algonquin College, 2017-2018" />
+
+<!-- for Facebook -->          
+<meta property="og:title" content="Graph Design" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="/images/general/algonquin-brand-panel.jpg" />
+<meta property="og:url" content="/topics/graph-design.html" />
+<meta property="og:description" content="Boring graphs can really put the kibosh on a great design. As a designer, one of the most difficult and rewarding jobs is to transform boring data into exciting, engaging visuals. The challenge is to present so many numbers in a compelling way." />
+
+<!-- for Twitter -->          
+<meta name="twitter:site" content="@alainparadis" />
+<meta name="twitter:title" content="Graph Design" />
+<meta name="twitter:description" content="Boring graphs can really put the kibosh on a great design. As a designer, one of the most difficult and rewarding jobs is to transform boring data into exciting, engaging visuals. The challenge is to present so many numbers in a compelling way." />
+<meta name="twitter:image" content="/images/general/algonquin-brand-panel.jpg" />
+<meta name="twitter:card" content="summary" />
+
+<!-- End of Social Tags -->
+
+<!-- This is the Adobe Adobe Fonts script. -->
+
+<script src="https://use.typekit.net/lqr6ffc.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<!-- This are the Favicon links. -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/favicon/manifest.json">
+	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+
+</head>
+
+
+<body>
+    <header role="banner">
+        <nav role="navigation">
+            <ul class="fw700">
+	<li><a href="/" title="Home" class="">Home</a></li>
+	<li><a href="/cg1/index.html" title="Semester One" class="">CG1</a></li>
+	<li><a href="/cg2/index.html" title="Semester Two" class="current">CG2</a></li>
+	<li><a href="/cg3/index.html" title="Semester Three" class="">CG3</a></li>
+	<li><a href="/cg4/index.html" title="Semester Four" class="">CG4</a></li>
+	<li><a href="/cg5/index.html" title="Semester Five" class="">CG5</a></li>
+	<li><a href="/cg6/index.html" title="Semester Six" class="">CG6</a></li>
+</ul>
+<ul>
+	<li><a href="/setup/index.html" title="Setup" class="">Set&nbsp;Up</a></li>
+	<li><a href="/administration/stock.html" title="Stock Photography" class="">Stock</a></li>
+	<li><a href="https://brightspace.algonquincollege.com/d2l/home" title="Brighspace, Your Learning Management System" target="_blank">Brightspace</a></li>
+</ul>
+
+        </nav>
+        <div class="site-id">
+            <div class="item1">
+                <a href="/"><img class="stacked" alt="Algonquin College Graphic Design Program Computer Graphics Course Curriculum" src="/images/svg/logo-ac-computer-graphics-stacked.svg"></a>
+                <a href="/"><img class="horizontal" alt="Algonquin College Graphic Design Program Computer Graphics Course Curriculum" src="/images/svg/logo-ac-computer-graphics.svg"></a>
+            </div>
+            <div class="item2"></div>
+        </div>
+    </header>
+    <section class="page-title">
+        <div class="item1">
+            
+                <h1><a href="/cg2/index.html">Graph Design</a></h1>
+            
+        </div>
+        <div class="item2">
+            
+            <div class="appsused">
+                <span class="uc">Apps Used:</span>
+                
+                
+                
+                <span class="app-icon"><img src="/images/svg/icon-ai-white.svg" alt="Adobe Illustrator"></span>
+                
+                <span class="app-icon"><img src="/images/svg/icon-indd-white.svg" alt="Adobe InDesign"></span>
+                
+                
+                
+            </div>
+            
+        </div>
+    </section>
+    <section class="video-instructions">
+        <div class="item1">
+            <p class="darkgreen fs15">Boring graphs can really put the kibosh on a great design. As a designer, one of the most difficult and rewarding jobs is to transform boring data into exciting, engaging visuals. The challenge is to present so many numbers in a compelling way.</p>
+            
+        </div>
+        <div class="item2">
+            
+            
+            <div class="formsum">
+                <h3 class="textcenter">This is a <span class="">formative</span> assignment</h3>
+                <p>
+                    That means that you'll be learning and practising new software skills. This assignment contributes to your final grade in the course. This work will be graded as either:
+                </p>
+                <div class="completeincomplete">
+                    <span class="complete">Complete</span>
+                    <span class="incomplete">Incomplete</span>
+                </div>
+                <p>
+                    If needed, I will provide written feedback on your performance.
+                </p>
+            </div>
+            
+            
+            
+            <div class="formsum">
+            <a href="https://www.dropbox.com/s/5jp9nz5iumdk8pc/illustrator-graph-design.zip?dl=1" title="Download practice & exercise files for this assignment." class="" target="_blank"><img src="/images/svg/icon-download.svg" class="size33 center marginbottom05"></a>
+            </div>
+            
+            
+            
+            
+        </div>
+    </section>
+    <section class="content">
+        <div class="item item1">
+        <h4>Topics</h4>
+
+<nav>
+<ul>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/setups/day1-cg2.html" title="0: As we start classes, it's important to get set up for the semester. Follow the instructions below." class="item  ">Semester Start</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/layers.html" title="1.0: Layers are among the fundamental features in Photoshop which aid editing. Superficially, they're simple, but the feature set goes deep. Photoshop features a number of kinds of layers. This is what we'll explore here." class="item  ">Layers</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/blend-modes.html" title="1.1: Blend Modes are used like paints being mixed. You have your base colour which you blend to obtain your blended result." class="item  ">Blend Modes</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/adjustment-layers.html" title="1.2: Adjustment Layers give instructions to layers below to do something like change colour, increase contrast, invert colours and much, much more. They're central to a non-destructive colour adjustment workflow." class="item  ">Adjustment Layers</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/compositing.html" title="1.9: In Photoshop, a composite is a collage of multiple photos and graphics with a theme. The focus of this assignment is to build one of these compositions in the most non-destructive, editable way possible." class="item summative ">Compositing</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/tabs-and-indents.html" title="2.0: The all-mighty tab character can do wonders in InDesign. We'll explore setting indented text and building grids with tabs and indents, too." class="item  ">Tabs & Indents</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/bullet-and-number-lists.html" title="2.1: Whether they are bulleted or numbered, InDesign is very adept at creating lists. There are very granular, flexible controls to create the lists that fit your design." class="item  ">Bullet & Number Lists</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/build-a-document.html" title="2.9: In this assignment, we'll look at the foundations of building an InDesign document from scratch. We'll set up the document to for maximum flexibility when doing revisions. This is really how every InDesign document you make should be built." class="item summative ">Build a Document</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/pixels-to-vectors.html" title="3.0: Adobe have designed a wonderful workflow for getting a sketch off paper into vectors in Illustrator. You can even create multiple colour versions in a matter of seconds. Let's give it a go." class="item  ">Pixels to Vectors</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/unleash-your-inner-vectors.html" title="3.9: Your job is to draw your own image, scan it, then use Image Trace to vectorize it. Once it's vectors, use Live Paint and Edit Colours to create a total of three different colour variations." class="item summative ">Unleash Your Inner Vectors</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/graph-design.html" title="4.0: Boring graphs can really put the kibosh on a great design. As a designer, one of the most difficult and rewarding jobs is to transform boring data into exciting, engaging visuals. The challenge is to present so many numbers in a compelling way." class="item  current">Graph Design</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/graph-layout.html" title="4.9: Boring graphs can really put the kibosh on a great design. As a designer, one of the most difficult and rewarding jobs is to transform boring data into exciting, engaging visuals. The challenge is to present so many numbers in a compelling way." class="item summative ">Graph Layout</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul>
+</nav>
+
+        </div>
+        <div class="item item2">
+            
+<p>Mark Twain said “There are lies, damned lies, and statistics.” That may be true. Well, consider yourself an interpreter of those lies. Columns representing numbers are pretty lame. As designers, it is our job to represent information in an interesting and informative manner. Luckily, Adobe has provided some really great graphing tools in Illustrator. This is what we are going to explore this week.</p>
+
+<h3 id="about-illustrator-graphs">About Illustrator Graphs</h3>
+
+<p>An Illustrator graph is special type of live, grouped object. When you select a graph, Illustrator’s Object Type Indicator tells us it’s a live graph object.</p>
+
+<figure>
+  <img class="size50" alt="graph-object-type" src="/images/illustrator-graph-design/graph-object-type.jpg" />
+<figcaption>
+  Graphs are a special type of grouped object in Illustrator.
+</figcaption>
+</figure>
+
+<p>If you ungroup a graph, Illustrator will put up a warning that it won’t be live anymore. This means the data won’t be editable. If you absolutely must ungroup a graph, make a copy of it first, so you can go back to the live graph if necessary.</p>
+
+<h3 id="how-to-draw-a-graph">How to Draw a Graph</h3>
+
+<p>To draw a graph, it’s important to have data well formatted ahead of time. It can be in a text file or a spreadsheet. Then, simply take one of the graph tools and draw a rectangle where you want the graph. The data window will open automatically. Type, or better yet, paste your data into the data window. Once you’re done, hit the check mark button or hit Enter (not Return).</p>
+
+<figure>
+  <img class="size100" alt="graph-example" src="/images/illustrator-graph-design/graph-example.jpg" />	
+<figcaption>
+This is an example of the basic graph that Illustrator produces.
+</figcaption>
+</figure>
+
+<p>Once you hit Enter, you’ll get a live preview of the graph. If you find you’ve entered the data on the wrong axis, just hit the Transpose button in the graph window.</p>
+
+<p><img class="size50" alt="graph-number-labels" src="/images/illustrator-graph-design/graph-number-labels.jpg" /></p>
+
+<div class="attentionbox achtung">If you want to use numbers as a label in the graph, you need to wrap the text in quote marks.</div>
+
+<h4 id="working-with-a-spreadsheet">Working with a Spreadsheet</h4>
+
+<p>Typing your data manually is fine if it’s a small graph as shown above. If you have something more intricate, it’s better to have your data in a spreadsheet.</p>
+
+<p>Clicking on the Import Data button in the data window rarely yields satisfactory results.</p>
+
+<p><img class="size100" alt="graph-spreadsheet" src="/images/illustrator-graph-design/graph-spreadsheet.jpg" /></p>
+
+<div class="fs15 textcenter">
+<a href="https://docs.google.com/spreadsheets/d/1-1PeqKm-lULLPUhLXgd6nXEKY42k2C9M1-ls_r2NGcY/edit?usp=sharing" title="Copy the spreadsheet data" target="_blank" class="limegreen">Spreadsheet Data</a>
+</div>
+
+<p>It’s best to open the spreadsheet to copy/paste the data into the Graph Data Table. You can then click the Apply button (check mark). The graph will be drawn on the artboard. If things don’t look right, click the Revert button. Fix your data file and try again.</p>
+
+<p>You can edit the text in the graph at any point. Simply select it with the Group Selection Tool. Change the text formatting until you are satisfied.</p>
+
+<p>To go back to make changes to the graph, select it with the selection tool and double-click on the graph tool. You can also control-click on it and make various changes.</p>
+
+<p>You can make two types of graphs in one. To do so, select on of the data sets with the Group Selection tool. Double-click on the graph tool and select the desired type of graph from the icons from the dialogue.</p>
+
+<h4 id="graph-designs">Graph Designs</h4>
+
+<p>Let’s start by building our graph before we enhance it with graph designs</p>
+
+<div class="fs15 textcenter">
+<a href="https://docs.google.com/spreadsheets/d/1kUVlCK-73c1cJrA8ePV7U9lv7LVmmiVujJG_4-A8krs/edit?usp=sharing" title="Copy the spreadsheet data" target="_blank" class="limegreen">Spreadsheet Data</a>
+</div>
+
+<p>Illustrator Graphs really come to life when you replace the bland, greyscale shapes with novel designs. you need to define your design first. Go <span class="command">Object &gt; Graph &gt; Design…</span></p>
+
+<p><img class="size50" alt="graph-design" src="/images/illustrator-graph-design/graph-design.jpg" /></p>
+
+<p>Once you define your design, you need to select a data set to apply the design to. Use the Group Selection Tool. Once it’s selected, go Object &gt; Graph &gt; Column… Choose the settings which suit your graph design.</p>
+
+<p><img class="size50" alt="graph-column-design" src="/images/illustrator-graph-design/graph-column-design.jpg" /></p>
+
+<p>You actually have quite fine control of how the design can stretch. You can determine which portion of the column stretches using guides.</p>
+
+<p><img class="size100" alt="graph-sliding-column-design" src="/images/illustrator-graph-design/graph-sliding-column-design.jpg" /></p>
+
+<p>Draw lines where you want the graph to stretch. Convert them to guides using <span class="command">⌘-5</span>. Make sure the guides are unlocked by hitting <span class="command">Option-⌘-;</span>. Create a new graph design with it set to Sliding, as shown.</p>
+
+<h4 id="outlining-your-graph-for-indesign">Outlining Your Graph for InDesign</h4>
+
+<p>When you place an Illustrator graph in an InDesign document, you need to ensure it no longer has depencies on fonts or images.</p>
+
+<p>In a duplicate of your graph file, select your graph and ungroup it with Shift-⌘-G. Illustrator will put up a warning. Click <span class="command">OK</span>. Outline all type by using Shift-⌘-o or <span class="command">Type &gt; Create Outlines</span>.</p>
+
+<p>Make sure to check your Links panel in Illustrator <span class="command">Window &gt; Links</span> to ensure it’s empty. If it’s not, delete any placed images from your file.</p>
+
+<p>You can also check the Find Font dialogue to ensure there’s no live type in your Illustrator document. If so, outline it using <span class="command">Type &gt; Create Outlines</span>.</p>
+
+<h3 id="wrap-up">Wrap-Up</h3>
+
+<p>The final product is that you have a live graph in Illustrator. You have a copy of that graph which is outlined. You place the outlined one in InDesign. The end.</p>
+
+            
+            
+                <h2>Formative Activity</h2>
+                
+                <p>Create graphs with the provided data about smokers in Canada. Make your layout  a tabloid page, in either landscape or portrait orientation.</p>
+
+<h4 id="graphs">Graphs</h4>
+
+<p>Create a bar chart depicting the number of smokers in Canada —  for men and for women. Your chart must be a sliding bar chart. It can be horizontal or vertical.</p>
+
+<p>Create a pie chart with the provided data. Customize it at will.</p>
+
+<h4 id="indesign-layout">InDesign Layout</h4>
+
+<p>Create duplicate, outlined versions of your graphs that’ll be placed in your layout in InDesign.</p>
+
+<h4 id="my-design">My Design</h4>
+
+<p>This is what <em>I did</em> for this exercise. Feel free to mimic my design or create your own. The important thing is to use Illustrator’s graph tools properly.</p>
+
+<figure>
+   <img src="/images/illustrator-graph-design/graph-assignment-illustrator.jpg" alt="graphs formative mine" class="size75" />
+  <figcaption>
+  This is my graph construction in Illustrator. Keep live graphs there in case you need to go back to them.
+  </figcaption>
+</figure>
+
+<figure>
+   <img src="/images/illustrator-graph-design/graph-assignment-indesign.jpg" alt="graphs formative mine" class="size100" />
+  <figcaption>
+  This is my design in InDesign. Keep live art there in case you need to go back to it.
+  </figcaption>
+</figure>
+
+<p>Be sure to keep live graphs and other live artwork on the paste-board. Also, limit yourself only to Adobe Fonts.</p>
+
+            
+        </div>
+        <div class="item item3">
+            
+            <h4>Supplemental Links</h4>
+            
+            <ul>
+  <li>Adobe: <a href="https://helpx.adobe.com/illustrator/using/graphs.html" title="Adobe: Graphs" target="_blank">Graphs</a></li>
+</ul>
+
+            
+            
+        </div>
+    </section>
+    
+    <section class="submission">
+        <div class="item item1">
+            <h2 class="">What you'll submit:</h2>
+        </div>
+        <div class="item item2">
+            <img src="/images/submissions/graph-design.svg">
+        </div>
+        <div class="item item3">
+            <h2>Instructions</h2>
+            <div class=""> 
+	<p>
+		This is what you're going to submit: 
+	</p>
+	<figure>
+		<img src="/images/illustrator-graph-design/graph-design-submission.jpg" class="100 borderdarkgreen1" alt="graph submission folder structure"> 
+		<figcaption>
+			If the explanations below seem complicated, just look at this photo. 
+		</figcaption>
+	</figure>
+	<h4>
+		Details 
+	</h4>
+	<p>
+		You're going to create your layout in InDesign. Once you're done, package the InDesign document. Start by making sure that your InDesign file is named: 
+	</p>
+	<div class="filename">
+		Appleseed-Johnny-#-graph-design.indd 
+	</div>
+	<p>
+		Create a folder named: 
+	</p>
+	<div class="foldername">
+		Appleseed-Johnny-#-graph-design 
+	</div>
+	<p>
+		Package your InDesign document into this folder. Add the Illustrator file with the live graph to the folder also. Double-check that your folder looks like the one above. 
+	</p>
+	<p>
+		Zip-compress the folder, then submit. 
+	</p>
+	<div class="zipfile">
+		Appleseed-Johnny-#-graph-design.zip 
+	</div>
+	 </div>
+            <div class="button-wrapper">
+                <a href="https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=477604&grpid=0&isprv=0&bp=0&ou=503895" class="button">Submit</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer role="contentinfo">
+<div class="item1">
+	<a href="/"><img src="/images/svg/logo-ac-computer-graphics.svg" alt="AC Computer Graphics Home"></a>
+</div>
+<nav>
+	<ul class="fw700">
+		<li><a href="/" title="Home" class="">Home</a></li>
+		<li><a href="/cg1/index.html" title="Semester One" class="">CG1</a></li>
+		<li><a href="/cg2/index.html" title="Semester Two" class="current">CG2</a></li>
+		<li><a href="/cg3/index.html" title="Semester Three" class="">CG3</a></li>
+		<li><a href="/cg4/index.html" title="Semester Four" class="">CG4</a></li>
+		<li><a href="/cg5/index.html" title="Semester Five" class="">CG5</a></li>
+		<li><a href="/cg6/index.html" title="Semester Six" class="">CG6</a></li>
+	</ul>
+	<ul>
+		<li><a href="/setup/index.html" title="Setup" class="">Set&nbsp;Up</a></li>
+		<li><a href="/administration/stock.html" title="Stock Photography" class="">Stock</a></li>
+
+		<li><a href="https://brightspace.algonquincollege.com/d2l/home" title="Brighspace, Your Learning Management System" target="_blank">Brightspace</a></li>
+	</ul>
+</nav>
+<div class="item3">
+	<span><a href="https://outlook.office365.com/owa/calendar/AlgonquinCollegeGraphicDesign@AlgonquinLivecom.onmicrosoft.com/bookings/" alt:="Book an Appointment with Dave or Al." target="_blank">Book an Appointment</a></span><br>
+	<span><a href="https://www.algonquincollege.com/cal" alt:="Centre for Accessible Learning" target="_blank">Centre for Accessible Learning</a></span><br>
+	<span"><a href="https://www.algonquincollege.com/ccr/" alt:="Algonquin College Co-Curricular Activities" target="_blank">Co-Curriculars</a></span><br>
+</div>
+<div class="item4">
+	<span><a href="/administration/assessment.html" title="Assessment">Assessment</a></span><br>
+	<span><a href="/administration/hardware.html" title="These are the hardware requirements for the Graphic Design Program at Algonquin College.">Hardware Requirements</a></span><br>
+</div>
+<div class="item5">
+	<span><a href="https://algonquindesign.ca" title="The Algonquin Design Program Page">AlgonquinDesign.ca</a></span><br>
+	<span><a href="https://www.behance.net/algonquin-design" title="The Algonquin Design Program Behance Page">Algonquin Design Behance</a></span><br>
+	<span><a href="/administration/pantone-books.html" title="Submitting assignments on Brightspace.">Purchase Pantone Books</a></span><br>
+</div>
+<div class="item6">
+	<span><a href="https://algonquindesign.ca/fieldwork/" title="Info on Fieldwork">Fieldwork</a></span><br>
+	<span><a href="https://support.apple.com/en-ca/HT205655" title="Ergonomics" target="_blank">Ergonomics</a></span><br>
+</div>
+<div class="item7">
+	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+	<span class="">Algonquin College</span>
+	<span itemprop="streetAddress">N200-1385 Woodroffe Ave.</span>
+	<span itemprop="addressLocality">Ottawa,</span>
+	<span itemprop="addressRegion">ON,</span>
+	<span itemprop="addressCountry">Canada</span>
+	<span itemprop="postalCode">K2G 1V8</span>
+	<span><a href="/topics/undetermined.html" class="nounderline">&#167;</a></span>
+</div>
+<div class="item10"></div>
+</div>
+</footer>
+
+</body>
+
+</html>

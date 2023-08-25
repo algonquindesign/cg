@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>
+	  
+		AC Computer Graphics : Layers
+	  
+	</title>
+	<meta name="generator" content="BBEdit 11.5" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="rgb(160, 200, 90)">
+	<link href="/css/layout.css" rel="stylesheet">
+	<link href="/css/typography.css" rel="stylesheet">
+  <link href="/css/elements.css" rel="stylesheet">
+
+<!-- Social Tags -->
+
+<!-- for Google -->
+<meta name="description" content="Layers are among the fundamental features in Photoshop which aid editing. Superficially, they're simple, but the feature set goes deep. Photoshop features a number of kinds of layers. This is what we'll explore here." />
+
+<meta name="author" content="Alain Paradis, Algonquin College" />
+<meta name="copyright" content="Alain Paradis, Algonquin College, 2017-2018" />
+
+<!-- for Facebook -->          
+<meta property="og:title" content="Layers" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="/images/general/algonquin-brand-panel.jpg" />
+<meta property="og:url" content="/topics/layers.html" />
+<meta property="og:description" content="Layers are among the fundamental features in Photoshop which aid editing. Superficially, they're simple, but the feature set goes deep. Photoshop features a number of kinds of layers. This is what we'll explore here." />
+
+<!-- for Twitter -->          
+<meta name="twitter:site" content="@alainparadis" />
+<meta name="twitter:title" content="Layers" />
+<meta name="twitter:description" content="Layers are among the fundamental features in Photoshop which aid editing. Superficially, they're simple, but the feature set goes deep. Photoshop features a number of kinds of layers. This is what we'll explore here." />
+<meta name="twitter:image" content="/images/general/algonquin-brand-panel.jpg" />
+<meta name="twitter:card" content="summary" />
+
+<!-- End of Social Tags -->
+
+<!-- This is the Adobe Adobe Fonts script. -->
+
+<script src="https://use.typekit.net/lqr6ffc.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<!-- This are the Favicon links. -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/favicon/manifest.json">
+	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+
+</head>
+
+
+<body>
+    <header role="banner">
+        <nav role="navigation">
+            <ul class="fw700">
+	<li><a href="/" title="Home" class="">Home</a></li>
+	<li><a href="/cg1/index.html" title="Semester One" class="">CG1</a></li>
+	<li><a href="/cg2/index.html" title="Semester Two" class="current">CG2</a></li>
+	<li><a href="/cg3/index.html" title="Semester Three" class="">CG3</a></li>
+	<li><a href="/cg4/index.html" title="Semester Four" class="">CG4</a></li>
+	<li><a href="/cg5/index.html" title="Semester Five" class="">CG5</a></li>
+	<li><a href="/cg6/index.html" title="Semester Six" class="">CG6</a></li>
+</ul>
+<ul>
+	<li><a href="/setup/index.html" title="Setup" class="">Set&nbsp;Up</a></li>
+	<li><a href="/administration/stock.html" title="Stock Photography" class="">Stock</a></li>
+	<li><a href="https://brightspace.algonquincollege.com/d2l/home" title="Brighspace, Your Learning Management System" target="_blank">Brightspace</a></li>
+</ul>
+
+        </nav>
+        <div class="site-id">
+            <div class="item1">
+                <a href="/"><img class="stacked" alt="Algonquin College Graphic Design Program Computer Graphics Course Curriculum" src="/images/svg/logo-ac-computer-graphics-stacked.svg"></a>
+                <a href="/"><img class="horizontal" alt="Algonquin College Graphic Design Program Computer Graphics Course Curriculum" src="/images/svg/logo-ac-computer-graphics.svg"></a>
+            </div>
+            <div class="item2"></div>
+        </div>
+    </header>
+    <section class="page-title">
+        <div class="item1">
+            
+                <h1><a href="/cg2/index.html">Layers</a></h1>
+            
+        </div>
+        <div class="item2">
+            
+            <div class="appsused">
+                <span class="uc">Apps Used:</span>
+                
+                
+                
+                
+                <span class="app-icon"><img src="/images/svg/icon-psd-white.svg" alt="Adobe Photoshop"></span>
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </section>
+    <section class="video-instructions">
+        <div class="item1">
+            <p class="darkgreen fs15">Layers are among the fundamental features in Photoshop which aid editing. Superficially, they're simple, but the feature set goes deep. Photoshop features a number of kinds of layers. This is what we'll explore here.</p>
+            
+        </div>
+        <div class="item2">
+            
+            
+            <div class="formsum">
+                <h3 class="textcenter">This is a <span class="">formative</span> assignment</h3>
+                <p>
+                    That means that you'll be learning and practising new software skills. This assignment contributes to your final grade in the course. This work will be graded as either:
+                </p>
+                <div class="completeincomplete">
+                    <span class="complete">Complete</span>
+                    <span class="incomplete">Incomplete</span>
+                </div>
+                <p>
+                    If needed, I will provide written feedback on your performance.
+                </p>
+            </div>
+            
+            
+            
+            <div class="formsum">
+            <a href="https://www.dropbox.com/s/wwvwc8gdnnb8hrl/photoshop-layers.zip?dl=1" title="Download practice & exercise files for this assignment." class="" target="_blank"><img src="/images/svg/icon-download.svg" class="size33 center marginbottom05"></a>
+            </div>
+            
+            
+            
+            
+        </div>
+    </section>
+    <section class="content">
+        <div class="item item1">
+        <h4>Topics</h4>
+
+<nav>
+<ul>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/setups/day1-cg2.html" title="0: As we start classes, it's important to get set up for the semester. Follow the instructions below." class="item  ">Semester Start</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/layers.html" title="1.0: Layers are among the fundamental features in Photoshop which aid editing. Superficially, they're simple, but the feature set goes deep. Photoshop features a number of kinds of layers. This is what we'll explore here." class="item  current">Layers</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/blend-modes.html" title="1.1: Blend Modes are used like paints being mixed. You have your base colour which you blend to obtain your blended result." class="item  ">Blend Modes</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/adjustment-layers.html" title="1.2: Adjustment Layers give instructions to layers below to do something like change colour, increase contrast, invert colours and much, much more. They're central to a non-destructive colour adjustment workflow." class="item  ">Adjustment Layers</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/compositing.html" title="1.9: In Photoshop, a composite is a collage of multiple photos and graphics with a theme. The focus of this assignment is to build one of these compositions in the most non-destructive, editable way possible." class="item summative ">Compositing</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/tabs-and-indents.html" title="2.0: The all-mighty tab character can do wonders in InDesign. We'll explore setting indented text and building grids with tabs and indents, too." class="item  ">Tabs & Indents</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/bullet-and-number-lists.html" title="2.1: Whether they are bulleted or numbered, InDesign is very adept at creating lists. There are very granular, flexible controls to create the lists that fit your design." class="item  ">Bullet & Number Lists</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/build-a-document.html" title="2.9: In this assignment, we'll look at the foundations of building an InDesign document from scratch. We'll set up the document to for maximum flexibility when doing revisions. This is really how every InDesign document you make should be built." class="item summative ">Build a Document</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/pixels-to-vectors.html" title="3.0: Adobe have designed a wonderful workflow for getting a sketch off paper into vectors in Illustrator. You can even create multiple colour versions in a matter of seconds. Let's give it a go." class="item  ">Pixels to Vectors</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/unleash-your-inner-vectors.html" title="3.9: Your job is to draw your own image, scan it, then use Image Trace to vectorize it. Once it's vectors, use Live Paint and Edit Colours to create a total of three different colour variations." class="item summative ">Unleash Your Inner Vectors</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/graph-design.html" title="4.0: Boring graphs can really put the kibosh on a great design. As a designer, one of the most difficult and rewarding jobs is to transform boring data into exciting, engaging visuals. The challenge is to present so many numbers in a compelling way." class="item  ">Graph Design</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <li><a href="/topics/graph-layout.html" title="4.9: Boring graphs can really put the kibosh on a great design. As a designer, one of the most difficult and rewarding jobs is to transform boring data into exciting, engaging visuals. The challenge is to present so many numbers in a compelling way." class="item summative ">Graph Layout</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul>
+</nav>
+
+        </div>
+        <div class="item item2">
+            <p>Photoshop layers are like sheets of stacked acetate. You can see through transparent areas of a layer to the layers below. You move a layer in the Layers panel stacking order to position the content on the layer, like sliding a sheet of acetate in a stack. You can also change the opacity of a layer to make content partially transparent.</p>
+
+<p>The Layers panel is dense with buttons, sliders and other controls. We’ll explore these in class. Layers can be locked in five different ways, like locking transparency, locking position and more.</p>
+
+<p><img src="/images/photoshop-layers/photoshop-layers-panel.jpg" class="size75" alt="Photoshop Layers Panel" /></p>
+
+<p>Layer organization and stacking order is a whole other area to master. Naming layers is important for your own work and even more for collaboration. <a href="https://photoshopetiquette.com">This is a must-read</a> if you want to respect industry-standard Photoshop etiquette.</p>
+
+<h3 id="filter-layers">Filter Layers</h3>
+
+<figure>
+  <img class="size33" alt="photoshop-layers-filters" src="/images/photoshop-layers/photoshop-layers-filters.jpg" />
+<figcaption>
+  <ol>
+    <li>Pick a filter type</li>
+    <li>Filter for pixel layers</li>
+    <li>Filter for Adjustment Layers</li>
+    <li>Filter for type Layers</li>
+    <li>Filter for shape Layers</li>
+    <li>Filter for Smart Objects</li>
+    <li>Turn filtering on/off</li>
+  </ol>
+</figcaption>
+</figure>
+
+<p>These buttons are especially useful when you have a large number of layers in your Photoshop file. You can click one of them to see only that type of layer. As an example, you can vew only Adjustment Layers.</p>
+
+<p>This doesn’t turn on/off the visibility on the canvas. It only filters the layers in the panel.</p>
+
+<h3 id="blend-modes">Blend Modes</h3>
+
+<p><img class="size33" alt="photoshop-blend-modes-panel" src="/images/photoshop-layers/photoshop-blend-modes-panel.jpg" /></p>
+
+<p>Blend Modes determine how the pixels on a layer above mix with pixels on the layer below. They can also be used with an individual tool. So, you can brush in a specific blend mode. <a href="https://helpx.adobe.com/photoshop/using/blending-modes.html" title="Adobe's Blend Mode descriptions" target="_blank">This is Adobe’s detailed descriptions</a> of each Blend Mode.</p>
+
+<h3 id="locks">Locks</h3>
+
+<p><img class="size33" alt="photoshop-layers-locks" src="/images/photoshop-layers/photoshop-layers-locks.jpg" /></p>
+
+<ol>
+  <li>Lock transparent pixels: When you paint, only pixels get painted. Transparency isn’t affected.</li>
+  <li>Lock pixels: Where there are pixels, you can’t paint. You <em>can</em> move them.</li>
+  <li>Lock position: You can’t move things with the Move Tool. You <em>can</em> paint them.</li>
+  <li>Artboards: Prevent auto-nesting into and out of Artboards.</li>
+  <li>Lock everything: You can’t paint or move anything.</li>
+</ol>
+
+<p>These locks are different from the one at the bottom of the Layers panel. These lock the ability to move or paint a layer. The chain link at the bottom of the panel <em>link</em> layers together so them move together.</p>
+
+<h3 id="opacity--fill">Opacity &amp; Fill</h3>
+
+<p><img class="size33" alt="photoshop-layers-panel-opacity-fill" src="/images/photoshop-layers/photoshop-layers-panel-opacity-fill.jpg" /></p>
+
+<p>Opacity is transparency. Lower it and the contents of the whole layer become translucent or transparent.</p>
+
+<p>Fill mostly works exactly like the Opacity control. The major difference is that it doesn’t affect effects. So, if you have Fill set to 0, the photo will disappear, but its Drop Shadow will show.</p>
+
+<h2 id="bottom-of-the-panel">Bottom of the panel</h2>
+
+<figure>
+  <img class="size33" alt="photoshop-layers-panel-bottom" src="/images/photoshop-layers/photoshop-layers-panel-bottom.jpg" />
+<figcaption>
+  <ol>
+    <li>Lock layers so they move together with the move tool. This doesn't prevent them from being painted on.</li>
+    <li>Layer Effects, like *Drop Shadow*.</li>
+    <li>Add a Layer Mask.</li>
+    <li>Add Adjustment Layers.</li>
+    <li>Create Layer Groups. These are folders to organize your layers.</li>
+    <li>Create a new Layer. Option-click on it to name the layer on creation.</li>
+    <li>Delete a layer. You can also simply target the layer, then use the Delete key.</li>
+  </ol>
+</figcaption>
+</figure>
+
+<h3 id="lets-practice">Let’s Practice</h3>
+
+<p>Let’s use each one of these types of layers. Create a new document, then add guides on your canvas with <span class="command">View &gt; New Guide Layout..</span></p>
+
+<p><img class="size100" alt="layers-practice-new-document-setup" src="/images/photoshop-layers/layers-practice-new-document-setup.jpg" /></p>
+
+<p>Use the guide below to build the layout as shown. Start by dragging each of the provided photos from the Finder into your Photoshop canvas.</p>
+
+<p><img class="size100" alt="layers-practice-guide" src="/images/photoshop-layers/layers-practice-guide.jpg" /></p>
+
+<p>Save this file as Appleseed, Johnny, #, Layers Practice.psd</p>
+
+            
+            
+                <h2>Formative Activity</h2>
+                
+                <p>Let’s build the file below to get the hang of creating and managing different types of layers.</p>
+
+<p><img class="size100" alt="photoshop-layers-exercise" src="/images/photoshop-layers/photoshop-layers-exercise.jpg" /></p>
+
+<p>Start by creating a letter-sized landscape document.</p>
+
+<p><img class="size50" alt="photoshop-layers-document-setup" src="/images/photoshop-layers/photoshop-layers-document-setup.jpg" /></p>
+
+<p>We’ll drag the photos into our canvas so they become Smart Objects. This allows for non-destructive resizing.</p>
+
+<p>We need to create guides to line up all of our content in a structured layout. Go <span class="command">View &gt; New Guide Layout…</span></p>
+
+<p><img class="size50" alt="photoshop-new-guide-layout" src="/images/photoshop-layers/photoshop-new-guide-layout.jpg" /></p>
+
+<p>We’ll use the Free Transform command to resize photos to fit our grid. Make sure you import the provided title text. It’s an Illustrator document.</p>
+
+<p><img class="size100" alt="photoshop-exercise-fit-images" src="/images/photoshop-layers/photoshop-exercise-fit-images.jpg" /></p>
+
+<p>Use the vector rectangle tool to create a rectangle behind the four photos. We can use the fill controls in the Control Bar to choose a colour.</p>
+
+<p><img class="size100" alt="photohsop-exercise-shape-layer" src="/images/photoshop-layers/photohsop-exercise-shape-layer.jpg" /></p>
+
+<p>Next, we’ll apply a stroke effect to the four smaller photos. To do this, go to the Fx menu at the bottom of the Layers panel and choose Stroke.</p>
+
+<p><img class="size100" alt="photohsop-exercise-stroke-effect" src="/images/photoshop-layers/photohsop-exercise-stroke-effect.jpg" /></p>
+
+<p>Add an 8pt white stroke to the photos. We’ll apply the effect to the layer group so it applies to all the layers inside it.</p>
+
+<p><img class="size100" alt="photoshop-exercise-area-type" src="/images/photoshop-layers/photoshop-exercise-area-type.jpg" /></p>
+
+<p>To fill your frame with text, you can go to the Type menu: Type &gt; Paste Lorem Ipsum. You can change the colour of your type from the colour control in the Control Bar. Target your type tool and the type layer to do so.</p>
+
+<p>Lastly, we can make our title graphic stand out a bit more with Layer Effects. We can use a Colour Overlay and an Outer Glow or a Drop Shadow.</p>
+
+<p><img class="size100" alt="photoshop-exercise-layer-effects" src="/images/photoshop-layers/photoshop-exercise-layer-effects.jpg" /></p>
+
+<p>There we go. We’ve successfully used the Layers Panel to create a layout in Photoshop in a non-destructive workflow.</p>
+
+<p><img class="size100" alt="photoshop-layers-exercise" src="/images/photoshop-layers/photoshop-layers-exercise.jpg" /></p>
+
+            
+        </div>
+        <div class="item item3">
+            
+            <h4>Supplemental Links</h4>
+            
+            <ul>
+  <li><a href="https://helpx.adobe.com/photoshop/using/layer-basics.html" target="_blank" title="Layer Basics">Layer Basics</a></li>
+  <li><a href="https://helpx.adobe.com/photoshop/using/selecting-grouping-linking-layers.html" target="_blank" title="Select, Group &amp; Link Layers">Select, Group &amp; Link Layers</a></li>
+  <li><a href="https://photoshopetiquette.com/" title="Photoshop Etiquette" target="_blank">Photoshop Etiquette</a></li>
+</ul>
+
+            
+            
+        </div>
+    </section>
+    
+    <section class="submission">
+        <div class="item item1">
+            <h2 class="">What you'll submit:</h2>
+        </div>
+        <div class="item item2">
+            <img src="/images/submissions/photoshop-document.svg">
+        </div>
+        <div class="item item3">
+            <h2>Instructions</h2>
+            <div class=""> 
+<p>
+	Save your Photoshop file as LastName-FirstName-Group-N&ordm;-Assignment-Name. 
+</p>
+<div class="filename">
+	Appleseed-Johnny-#-Layers.psd 
+</div>
+<p>
+	Zip-compress the Photoshop file, then submit it on BrightSpace. 
+</p>
+<div class="zipfile">
+	Appleseed-Johnny-#-Layers.psd.zip 
+</div>
+ </div>
+            <div class="button-wrapper">
+                <a href="https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=477596&grpid=0&isprv=0&bp=0&ou=503895" class="button">Submit</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer role="contentinfo">
+<div class="item1">
+	<a href="/"><img src="/images/svg/logo-ac-computer-graphics.svg" alt="AC Computer Graphics Home"></a>
+</div>
+<nav>
+	<ul class="fw700">
+		<li><a href="/" title="Home" class="">Home</a></li>
+		<li><a href="/cg1/index.html" title="Semester One" class="">CG1</a></li>
+		<li><a href="/cg2/index.html" title="Semester Two" class="current">CG2</a></li>
+		<li><a href="/cg3/index.html" title="Semester Three" class="">CG3</a></li>
+		<li><a href="/cg4/index.html" title="Semester Four" class="">CG4</a></li>
+		<li><a href="/cg5/index.html" title="Semester Five" class="">CG5</a></li>
+		<li><a href="/cg6/index.html" title="Semester Six" class="">CG6</a></li>
+	</ul>
+	<ul>
+		<li><a href="/setup/index.html" title="Setup" class="">Set&nbsp;Up</a></li>
+		<li><a href="/administration/stock.html" title="Stock Photography" class="">Stock</a></li>
+
+		<li><a href="https://brightspace.algonquincollege.com/d2l/home" title="Brighspace, Your Learning Management System" target="_blank">Brightspace</a></li>
+	</ul>
+</nav>
+<div class="item3">
+	<span><a href="https://outlook.office365.com/owa/calendar/AlgonquinCollegeGraphicDesign@AlgonquinLivecom.onmicrosoft.com/bookings/" alt:="Book an Appointment with Dave or Al." target="_blank">Book an Appointment</a></span><br>
+	<span><a href="https://www.algonquincollege.com/cal" alt:="Centre for Accessible Learning" target="_blank">Centre for Accessible Learning</a></span><br>
+	<span"><a href="https://www.algonquincollege.com/ccr/" alt:="Algonquin College Co-Curricular Activities" target="_blank">Co-Curriculars</a></span><br>
+</div>
+<div class="item4">
+	<span><a href="/administration/assessment.html" title="Assessment">Assessment</a></span><br>
+	<span><a href="/administration/hardware.html" title="These are the hardware requirements for the Graphic Design Program at Algonquin College.">Hardware Requirements</a></span><br>
+</div>
+<div class="item5">
+	<span><a href="https://algonquindesign.ca" title="The Algonquin Design Program Page">AlgonquinDesign.ca</a></span><br>
+	<span><a href="https://www.behance.net/algonquin-design" title="The Algonquin Design Program Behance Page">Algonquin Design Behance</a></span><br>
+	<span><a href="/administration/pantone-books.html" title="Submitting assignments on Brightspace.">Purchase Pantone Books</a></span><br>
+</div>
+<div class="item6">
+	<span><a href="https://algonquindesign.ca/fieldwork/" title="Info on Fieldwork">Fieldwork</a></span><br>
+	<span><a href="https://support.apple.com/en-ca/HT205655" title="Ergonomics" target="_blank">Ergonomics</a></span><br>
+</div>
+<div class="item7">
+	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+	<span class="">Algonquin College</span>
+	<span itemprop="streetAddress">N200-1385 Woodroffe Ave.</span>
+	<span itemprop="addressLocality">Ottawa,</span>
+	<span itemprop="addressRegion">ON,</span>
+	<span itemprop="addressCountry">Canada</span>
+	<span itemprop="postalCode">K2G 1V8</span>
+	<span><a href="/topics/undetermined.html" class="nounderline">&#167;</a></span>
+</div>
+<div class="item10"></div>
+</div>
+</footer>
+
+</body>
+
+</html>
