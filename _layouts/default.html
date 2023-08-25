@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+{% include head.html %}
+
+<body>
+    <header role="banner">
+        <nav role="navigation">
+            {% include top-nav.html %}
+        </nav>
+        <div class="site-id">
+            <div class="item1">
+                <a href="{{ site.baseurl }}/"><img class="stacked" alt="Algonquin College Graphic Design Program Computer Graphics Course Curriculum" src="/images/svg/logo-ac-computer-graphics-stacked.svg"></a>
+                <a href="{{ site.baseurl }}/"><img class="horizontal" alt="Algonquin College Graphic Design Program Computer Graphics Course Curriculum" src="/images/svg/logo-ac-computer-graphics.svg"></a>
+            </div>
+            <div class="item2"></div>
+        </div>
+    </header>
+    <section class="page-title">
+        <div class="item1">
+            {% if page.type == 'assignment' %}
+                <h1><a href="{{ site.baseurl}}/{{page.level}}/index.html">{{ page.title }}</a></h1>
+            {% else %}
+            <h1>{{ page.title }}</h1>
+            {% endif %}
+        </div>
+        <div class="item2">
+            {% if page.appsused %}
+            <div class="appsused">
+                <span class="uc">Apps Used:</span>
+                {% if page.appsused contains 'sketching' %}<span class="app-icon"><img src="{{ site.baseurl }}/images/svg/icon-sketching-white.svg" alt="Sketch by hand"></span>{% endif %}
+                {% if page.appsused contains 'macos' %}<span class="app-icon"><img src="{{ site.baseurl }}/images/svg/icon-macos-white.svg" alt="Mac OS"></span>{% endif %}
+                {% if page.appsused contains 'cc' %}<span class="app-icon"><img src="{{ site.baseurl }}/images/svg/icon-cc-white.svg" alt="Adobe Creative Cloud"></span>{% endif %}
+                {% if page.appsused contains 'ai' %}<span class="app-icon"><img src="{{ site.baseurl }}/images/svg/icon-ai-white.svg" alt="Adobe Illustrator"></span>{% endif %}
+                {% if page.appsused contains 'psd' %}<span class="app-icon"><img src="{{ site.baseurl }}/images/svg/icon-psd-white.svg" alt="Adobe Photoshop"></span>{% endif %}
+                {% if page.appsused contains 'indd' %}<span class="app-icon"><img src="{{ site.baseurl }}/images/svg/icon-indd-white.svg" alt="Adobe InDesign"></span>{% endif %}
+                {% if page.appsused contains 'pdf' %}<span class="app-icon"><img src="{{ site.baseurl }}/images/svg/icon-pdf-white.svg" alt="Adobe Acrobat"></span>{% endif %}
+                {% if page.appsused contains 'xd' %}<span class="app-icon"><img src="{{ site.baseurl }}/images/svg/icon-xd-white.svg" alt="Adobe Xd"></span>{% endif %}
+                {% if page.appsused contains 'dn' %}<span class="app-icon"><img src="{{ site.baseurl }}/images/svg/icon-dn-white.svg" alt="Adobe Dimensions"></span>{% endif %}
+            </div>
+            {% endif %}
+        </div>
+    </section>
+    <section class="video-instructions">
+        <div class="item1">
+            <p class="darkgreen fs15">{{ page.description }}</p>
+            {% if page.video contains 'youtube' or page.lyndalinks contains 'lynda' %}
+            {% if page.formsum == 'formative' %}
+            <div class="formsum">
+                <h3 class="textcenter">This is a <span class="">{{ page.formsum }}</span> assignment</h3>
+                <p>
+                    That means that you'll be learning and practising new software skills. This assignment contributes to your final grade in the course. This work will be graded as either:
+                </p>
+                <div class="completeincomplete">
+                    <span class="complete">Complete</span>
+                    <span class="incomplete">Incomplete</span>
+                </div>
+                <p>
+                    If needed, I will provide written feedback on your performance.
+                </p>
+            </div>
+            {% elsif page.formsum == 'summative' %}
+            <div class="formsum sum">
+                <h3 class="textcenter">This is a <span class="">{{ page.formsum }}</span> assignment</h3>
+                <p>
+                    It evaluates your mastery of the skills in this instructional unit. This assignment contributes to your final grade in the course. You will earn a letter grade.
+                </p>
+                <h5 class="padbottom10 textcenter">
+                    <a href="{{ site.baseurl }}/administration/assessment.html" title="Algonquin College Grading System">Your Grading System</a>
+                </h5>
+            </div>
+            {% endif %}
+            {% if page.downloads %}
+            {% if page.type == 'assignment' %}
+            <div class="formsum">
+            <a href="{{ page.downloads }}" title="Download practice & exercise files for this assignment." class="" target="_blank"><img src="/images/svg/icon-download.svg" class="size33 center marginbottom05"></a>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endif %}
+        </div>
+        <div class="item2">
+            {% if page.video contains 'youtube' or page.lyndalinks contains 'lynda' %} {% else %}
+            {% if page.formsum == 'formative' %}
+            <div class="formsum">
+                <h3 class="textcenter">This is a <span class="">{{ page.formsum }}</span> assignment</h3>
+                <p>
+                    That means that you'll be learning and practising new software skills. This assignment contributes to your final grade in the course. This work will be graded as either:
+                </p>
+                <div class="completeincomplete">
+                    <span class="complete">Complete</span>
+                    <span class="incomplete">Incomplete</span>
+                </div>
+                <p>
+                    If needed, I will provide written feedback on your performance.
+                </p>
+            </div>
+            {% elsif page.formsum == 'summative' %}
+            <div class="formsum sum">
+                <h3 class="textcenter">This is a <span class="">{{ page.formsum }}</span> assignment</h3>
+                <p>
+                    It evaluates your mastery of the skills in this instructional unit. This assignment contributes to your final grade in the course. You will earn a letter grade.
+                </p>
+                <h5 class="padbottom10 textcenter">
+                    <a href="{{ site.baseurl }}/administration/assessment.html" title="Algonquin College Grading System">Your Grading System</a>
+                </h5>
+            </div>
+            {% endif %}
+            {% if page.downloads %}
+            {% if page.type == 'assignment' %}
+            <div class="formsum">
+            <a href="{{ page.downloads }}" title="Download practice & exercise files for this assignment." class="" target="_blank"><img src="/images/svg/icon-download.svg" class="size33 center marginbottom05"></a>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endif %}
+            {% if page.video %}
+            <h3>Video Tutorials</h3>
+            <div id="embed-youtube-container">
+                <iframe src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+            </div>
+            {% endif %}
+        </div>
+    </section>
+    <section class="content">
+        <div class="item item1">
+        {% include left-nav.html %}
+        </div>
+        <div class="item item2">
+            {{ page.details | markdownify }}
+            {% if page.formsum == 'formative' or page.formsum == 'summative' %}
+            {% if page.formsum == 'formative' %}
+                <h2>Formative Activity</h2>
+                {% elsif page.formsum == 'summative' %}
+                <h2>Your Assignment</h2>
+                {% endif %}
+                {{ page.assignment | markdownify }}
+            {% endif %}
+        </div>
+        <div class="item item3">
+            {% if page.links %}
+            <h4>Supplemental Links</h4>
+            {% for link in page.links %}
+            {{ link | markdownify }}
+            {% endfor %}
+            {% endif %}
+        </div>
+    </section>
+    {% if page.submission %}
+    <section class="submission">
+        <div class="item item1">
+            <h2 class="">What you'll submit:</h2>
+        </div>
+        <div class="item item2">
+            <img src="/images/submissions/{{page.submission}}.svg">
+        </div>
+        <div class="item item3">
+            <h2>Instructions</h2>
+            <div class="">{{ content }}</div>
+            <div class="button-wrapper">
+                <a href="{{ page.brightspace }}" class="button">Submit</a>
+            </div>
+        </div>
+    </section>
+    {% endif %}
+    {% include footer.html %}
+</body>
+
+</html>

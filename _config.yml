@@ -1,0 +1,44 @@
+title: AC Computer Graphics
+email: paradia@algonquincollege.com
+description: >
+  This is the curruculum web site for the Computer Graphics courses in the Graphic Design program at Algonquin College in Ottawa, Canada.
+baseurl: ""
+twitter: "@alainparadis"
+sms: "+1 (613) 618-2138"
+office: "N200"
+
+collections:
+  topics:
+      output: true
+  cg1:
+      output: true
+  cg2:
+      output: true
+  cg3:
+      output: true
+  cg4:
+      output: true
+  cg5:
+      output: true
+  cg6:
+      output: true
+  setup:
+      output: true
+  setups:
+      output: true
+  fpp:
+      output: true
+  info:
+      output: true
+  information:
+      output: true
+  admin:
+    output: true
+  administration:
+    output: true
+  thefeed:
+      output: true
+  posts:
+    output: true
+  guides:
+    output: true

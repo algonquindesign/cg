@@ -1,0 +1,47 @@
+---
+layout: submission
+type: assignment
+formsum: summative
+sortorder: 7.9
+appsused: ai
+title: "Skateboard Parks Cards"
+level: cg5
+brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=456571&grpid=0&isprv=0&bp=0&ou=463723"
+submission: "illustrator-variables-summative"
+links:
+downloads: "https://www.dropbox.com/s/06868w69vd8uoje/illustrator-variable-data-summative.zip?dl=1"
+description: "Use the provided data to design and build a series of post cards for each of Ottawa's skateboard parks."
+details: | 
+  
+assignment: |
+  Design a card for each of Ottawa's skateboard parks. Use the provided files to output a PDF file for each record in the spreadsheet.
+
+  Create a card for each skateboard park in the city. The dimensions are half letter, so 8.5" wide x 5.5" tall Make sure you **use only Adobe Fonts** fonts in your design, so submitting will be simpler.
+
+  Each card must have:
+
+  * The photo of the park.
+  * The Facility ID in an inconspicuous location.
+  * The name of the park.
+  * The address of the park.
+  * An indication of the facility type.
+  * An indication of whether it's access-controlled. You need to indicate a positive or negative status.
+  * An indication whether it's accessible. You need to indicate a positive or negative status.
+
+  <div class="attentionbox filename">
+    <a href="https://algonquinlivecom-my.sharepoint.com/:x:/g/personal/paradia_algonquincollege_com/EUNhAV3UcsBBl7GBKfVQ3esBSinO3DNv9428dTY45Oz3Qw?e=SIaLSd" title="Go to the Spreadsheet" target="_blank">Get the data from this spreadsheet.</a>
+  </div>
+
+  You need to have each of the types of variables in your file:
+
+  * Text variables
+  * Image variables
+  * Visibility variables
+
+  You'll need to edit this data file to make it do what you want: swap text, show/hide layers and swap photos. Once the spreadsheet is formatted as you want, export it as a .csv file. That's the file you'll import into Illustrator using the script.
+
+  Once all of your variables are imported, double-check that everything works properly.
+
+  Use the Batch command to export the data sets as Press-Ready PDF files into the provided 'PDFs' folder. Save your Illustrator file in place in the 'Your Exercise' folder. The .csv file should be in that folder too.
+---
+https://docs.google.com/a/algonquindesign.ca/spreadsheets/d/19S_r_LzZhPYa2Xv7GdzxFaW4qMRJ5APYc3mvnl8BMiU/edit?usp=sharing
