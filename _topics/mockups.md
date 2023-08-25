@@ -2,7 +2,7 @@
 layout: submission
 type: assignment
 formsum: summative
-sortorder: 5.9
+sortorder: 1.9
 appsused: psd
 title: "Mockups"
 level: cg5

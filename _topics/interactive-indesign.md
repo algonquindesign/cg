@@ -2,10 +2,10 @@
 layout: submission
 type: assignment
 formsum: formative
-sortorder: 6.0
+sortorder: 1.0
 appsused: indd, pdf, cc
 title: "Interactive InDesign"
-level: cg5
+level: cg6
 brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=456572&grpid=0&isprv=0&bp=0&ou=463723"
 submission: "indesign-package"
 links: |

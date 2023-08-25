@@ -2,7 +2,7 @@
 layout: submission
 type: assignment
 formsum: formative
-sortorder: 7.0
+sortorder: 6.0
 appsused: ai
 title: "Variable Data"
 level: cg5

@@ -2,7 +2,7 @@
 layout: submission
 type: assignment
 formsum: formative
-sortorder: 3.0
+sortorder: 5.0
 appsused: ai, psd
 title: "Custom Vector Brushes"
 level: cg5

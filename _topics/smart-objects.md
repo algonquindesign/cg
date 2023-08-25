@@ -2,7 +2,7 @@
 layout: submission
 type: assignment
 formsum: formative
-sortorder: 5.0
+sortorder: 1.0
 appsused: psd
 title: "Smart Objects"
 level: cg5

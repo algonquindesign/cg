@@ -2,7 +2,7 @@
 layout: submission
 type: assignment
 formsum: summative
-sortorder: 2.9
+sortorder: 4.9
 appsused: ai
 title: "Isometric Illustration"
 level: cg5

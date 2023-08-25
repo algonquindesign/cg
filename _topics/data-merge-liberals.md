@@ -2,7 +2,7 @@
 layout: submission
 type: assignment
 formsum: formative
-sortorder: 1.0
+sortorder: 3.0
 appsused: indd
 title: "Data Merge Liberals"
 level: cg5

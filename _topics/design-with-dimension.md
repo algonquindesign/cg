@@ -2,10 +2,10 @@
 layout: submission
 type: assignment
 formsum: summative
-sortorder: 1.9
+sortorder: 2.9
 appsused: dn
 title: "Design with Dimension"
-level: cg6
+level: cg5
 brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=492650&grpid=0&isprv=0&bp=0&ou=503897"
 submission: "pdf+zipped-folder"
 links: |

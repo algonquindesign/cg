@@ -2,7 +2,7 @@
 layout: submission
 type: assignment
 formsum: summative
-sortorder: 7.9
+sortorder: 6.9
 appsused: ai
 title: "Skateboard Parks Cards"
 level: cg5

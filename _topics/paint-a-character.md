@@ -2,7 +2,7 @@
 layout: submission
 type: assignment
 formsum: summative
-sortorder: 3.9
+sortorder: 5.9
 appsused: ai, psd
 title: "Paint a Character"
 level: cg5
