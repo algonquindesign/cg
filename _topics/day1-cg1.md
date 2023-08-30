@@ -21,10 +21,7 @@ details: |
 
   #### First, Some Housekeeping
 
-  - You must be on Zoom on time. I will not repeat instructions you may have missed if you come in late.
-  - Add a clear headshot as your avatar on Zoom.
-  - Turn on video. It's better for classroom morale all 'round.
-  <!--   - The door will be locked once class starts. If you're late, wait for a break before coming in. -->
+  - The door will be locked once class starts. If you're late, wait for a break before coming in.
   - No phone use during class, unless on a break.
   - Want to provide anonymous feedback? Use this <a href="/administration/feedback.html" title="Submit anonymous feedback" target="_blank">anonymous feedback form</a>. The link is in the footer on every page of this site.
 
