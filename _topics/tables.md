@@ -6,7 +6,7 @@ sortorder: 1.3
 appsused: indd
 title: "Tables"
 level: cg3
-brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=483548&grpid=0&isprv=0&bp=0&ou=503882"
+brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=543579&grpid=0&isprv=0&bp=0&ou=565775"
 submission: "indesign-package"
 links: |
   - Adobe: <a href="https://helpx.adobe.com/indesign/using/creating-tables.html" target="_blank" title="Adobe: Tables">Tables</a>

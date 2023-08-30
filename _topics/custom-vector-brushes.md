@@ -6,7 +6,7 @@ sortorder: 5.0
 appsused: ai, psd
 title: "Custom Vector Brushes"
 level: cg5
-brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=456566&grpid=0&isprv=0&bp=0&ou=463723"
+brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=543591&grpid=0&isprv=0&bp=0&ou=565781"
 submission: "my-assignment-folder"
 links: |
   - <a href="http://www.glitschkastudios.com/#/vector-painting/" title="Examples of painting in Illustrator." target="_blank">Glitschka Studios</a>

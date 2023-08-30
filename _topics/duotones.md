@@ -6,7 +6,7 @@ sortorder: 2.1
 appsused: psd, indd
 title: "Duotones"
 level: cg3
-brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=483551&grpid=0&isprv=0&bp=0&ou=503882"
+brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=543582&grpid=0&isprv=0&bp=0&ou=565775"
 submission: "indesign-package"
 links: |
   - Behance: <a href="https://www.behance.net/search?search=duotone" target="_blank" title="Examples of Duotones">Examples of Duotones</a>
