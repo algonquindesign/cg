@@ -2,7 +2,7 @@
 layout: submission
 type: assignment
 formsum: formative
-sortorder: 2.0
+sortorder: 1.0
 appsused: dn
 title: "Practice In Depth"
 level: cg5
