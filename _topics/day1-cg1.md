@@ -9,7 +9,7 @@ level: cg1
 brightspace:
 submission:
 links: |
-  - <a href="https://uc0a7f1b6963c46e266f0dba37df.dl.dropboxusercontent.com/cd/0/get/BJfWwYqS0t7I24MEn71DIPMki5RreTamjbSzGSehH2Cfubq2Ha4rbKJW1XovvCD9f6RqxXDxayRy-SFL_y5Mgr59n7oKCeDsJpxRI2P7LgnTez0mz_SqDDfKhFjKyypXVLY/file?dl=1" title="Download your Program of Study">Download your Program of Study (PDF)</a>
+  - <a href="https://www.dropbox.com/scl/fi/ljd52589i7md81uw1x230/2023-2024-Graphic-Design-POS.pdf?rlkey=7v897vu3kbqbuwsz8h12b0tec&dl=1" title="Download your Program of Study">Download your Program of Study (PDF)</a>
   - <a href="/setups/mac.html" title="macOS Setup">macOS Setup</a>
   - <a href="/setups/college-services.html" title="Set up your college online services">Setup College Services</a>
 downloads:
