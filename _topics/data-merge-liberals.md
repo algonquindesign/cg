@@ -48,7 +48,7 @@ details: |
   ### .csv File Setup
 
   <div class="fs15 textcenter">
-  <a href="https://algonquinlivecom-my.sharepoint.com/:x:/g/personal/paradia_algonquincollege_com/EfRvWm3feStEsMLsjOdmYQQBGh2DIvwg9sZS4pKE860hYQ?e=061fcP" title="Spreadsheet Data" target="_blank" class="limegreen">Spreadsheet Data</a>
+  <a href="https://algonquinlivecom-my.sharepoint.com/:x:/g/personal/paradia_algonquincollege_com/EfRvWm3feStEsMLsjOdmYQQBGh2DIvwg9sZS4pKE860hYQ?e=zg5yfr" title="Spreadsheet Data" target="_blank" class="limegreen">Spreadsheet Data</a>
   </div>
 
   In your .csv file, a column is a variable and a row is a record. That means that each column lists a specified type of data. It will either be text or an image. Each row is a set of related data.
