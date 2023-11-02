@@ -25,7 +25,7 @@ assignment: |
   - Conservative Party of Canada
   - Party Logo, provided .ai file
   <div class="fs15 textcenter">
-  <a href="https://algonquinlivecom-my.sharepoint.com/:x:/g/personal/paradia_algonquincollege_com/ESssX4ZT2qRGunyxN9_ukM8BZsZbtg3X6i27M-sF7ykZAQ?e=xvhL23" title="Spreadsheet Data" target="_blank" class="limegreen">Spreadsheet Data</a>
+  <a href="https://algonquinlivecom-my.sharepoint.com/:x:/g/personal/paradia_algonquincollege_com/EYNbJ0306AZApFd2XMBDKgYB_MbTwofDcr5e7SL2KfvVEg?e=jj804K" title="Spreadsheet Data" target="_blank" class="limegreen">Spreadsheet Data</a>
   </div>
 
   Variables to Include:
