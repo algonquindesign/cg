@@ -145,6 +145,27 @@ details: |
   <div class="attentionbox tip">
   If you're zoomed in really closely, you can hold h, then click-hold with your mouse to zoom out and choose another zoom location. Go ahead; give it a whirl.
   </div>
+
+  ### Generative Fill
+
+  The latest addition to Photoshop is the AI-driven Generative Fill tool. This allows you to not only create entirely new things from a prompt, but you can leave the prompt completely blank for the most powerful removal tool yet.
+
+  <figure>
+      <img class="size100" alt="Generative Fill Leave Blank" src="/images/photoshop-retouching-fundamentals/genfill1-leaveblank.jpg">
+  </figure>
+  Simply make a lasso selection (Shortcut key L) around the object or person you want to remove. Make a selection around shadows and reflections with a generous buffer zone. Give photoshop enough pixels around it to make a seamless transition. 
+
+  <figure>
+      <img class="size100" alt="Generative Fill Works" src="/images/photoshop-retouching-fundamentals/genfill2-works.jpg">
+  </figure>
+
+  In the Contextual Task Bar (Window > Contextual Task Bar) click “Generative Fill”. Leave the prompt blank and click “Generate”. Photoshop’s AI will create a new patch that should flawlessly remove the subject in seconds. This works great 90% of the time. You get three variations to choose from in the Properties panel, or click generate to create three more.
+
+  <figure>
+      <img class="size100" alt="Generative Fill Doesn't Work" src="/images/photoshop-retouching-fundamentals/genfill3-doesntwork.jpg">
+  </figure>
+  The other 10% of the time, you will get wacky variations and creepy half-formed models. Simply delete the generated layer and try again.
+
 assignment: |
   Fix blemishes on the provided photo with any of the tools above, as needed. Feel free to use an <a href="adjustment-layers.html" target="_blank" title="a"><a href="adjustment-layers.html" title="adjustment layer">adjustment layer</a></a>. You'll likely need them to colour her lips and maybe her eyes. You can run the skin smoothing technique. Gently.
   
