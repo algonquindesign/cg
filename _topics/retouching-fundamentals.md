@@ -186,9 +186,9 @@ assignment: |
   
   Do not use the skin smoothing on this photo.
 
-  ### Content Aware Fill
+  ### Content Aware or Generative Fill
 
-  Use Content Aware Fill to remove the microphone and light from the background.
+  Use both Content Aware and Generative Fill to remove the microphone and light from the background. Keep all layers in your file so you can compare them.
 
   <img class="size100" alt="summative-content-aware-fill" src="/images/photoshop-retouching-fundamentals/summative-content-aware-fill.jpg">
 
