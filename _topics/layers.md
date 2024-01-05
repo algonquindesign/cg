@@ -87,8 +87,6 @@ details: |
   </figcaption>
   </figure>
 
-
-
   ### Let's Practice
 
   Let's use each one of these types of layers. Create a new document, then add guides on your canvas with <span class="command">View > New Guide Layout..</span>
@@ -98,6 +96,12 @@ details: |
   Use the guide below to build the layout as shown. Start by dragging each of the provided photos from the Finder into your Photoshop canvas.
 
   <img class="size100" alt="layers-practice-guide" src="/images/photoshop-layers/layers-practice-guide.jpg">
+  
+  Header type is Proxima Nova Semibold 9.5pt/Auto.  
+  Body type is Proxima Nova Regular 9.5pt/Auto. 
+ 
+  Grey colour is 0 / 0 / 0 / 70  
+  Lime green is 50 / 0 / 80 / 0 
 
   Save this file as Appleseed, Johnny, #, Layers Practice.psd
 
@@ -124,11 +128,14 @@ assignment: |
 
   <img class="size100" alt="photohsop-exercise-shape-layer" src="/images/photoshop-layers/photohsop-exercise-shape-layer.jpg">
 
+  Red colour is 30 / 100 / 100 / 30  
+  Body copy is Proxima Nova Regular 12pt/Auto (100% Black) 
+
   Next, we'll apply a stroke effect to the four smaller photos. To do this, go to the Fx menu at the bottom of the Layers panel and choose Stroke.
 
   <img class="size100" alt="photohsop-exercise-stroke-effect" src="/images/photoshop-layers/photohsop-exercise-stroke-effect.jpg">
 
-  Add an 8pt white stroke to the photos. We'll apply the effect to the layer group so it applies to all the layers inside it.
+  Add an 8pt white **inside** stroke to the photos. We’ll apply the effect to the layer group so it applies to all the layers inside it. Add a Drop Shadow using the default values (Click ‘Reset to Default’ at the bottom of the dialog)
 
   <img class="size100" alt="photoshop-exercise-area-type" src="/images/photoshop-layers/photoshop-exercise-area-type.jpg">
 
@@ -141,4 +148,6 @@ assignment: |
   There we go. We've successfully used the Layers Panel to create a layout in Photoshop in a non-destructive workflow.
 
   <img class="size100" alt="photoshop-layers-exercise" src="/images/photoshop-layers/photoshop-layers-exercise.jpg">
+
+  Make sure all layers are named properly.
 ---
