@@ -6,7 +6,7 @@ sortorder: 4.9
 appsused: ai
 title: "My Gradient Mesh"
 level: cg4
-brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=483590&grpid=0&isprv=0&bp=0&ou=503887"
+brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=600585&grpid=0&isprv=0&bp=0&ou=611506"
 submission: "illustrator-package"
 links: 
 downloads: "https://www.dropbox.com/s/yo45qyxrh775ujv/illustrator-my-gradient-mesh.zip?dl=1"

@@ -6,7 +6,7 @@ sortorder: 1.9
 appsused: indd, pdf, cc
 title: "Acrobat Forms"
 level: cg4
-brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=456575&grpid=0&isprv=0&bp=0&ou=463723"
+brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=600596&grpid=0&isprv=0&bp=0&ou=611506"
 submission: "indesign-package"
 links:
 downloads: "https://www.dropbox.com/s/vt8hq0jmto9rlh0/acrobat-acrobat-forms.zip?dl=1"

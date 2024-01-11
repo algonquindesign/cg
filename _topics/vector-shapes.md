@@ -6,7 +6,7 @@ sortorder: 4.1
 appsused: psd, ai, indd
 title: "Vector Shapes"
 level: cg4
-brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=483598&grpid=0&isprv=0&bp=0&ou=503887"
+brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=600592&grpid=0&isprv=0&bp=0&ou=611506"
 submission: "photoshop-document"
 links:
 downloads: "https://www.dropbox.com/s/p93mavgdl9gcty8/photoshop-vector-shapes.zip?dl=1"

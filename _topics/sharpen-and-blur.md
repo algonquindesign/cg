@@ -6,7 +6,7 @@ sortorder: 3.4
 appsused: psd
 title: "Sharpen & Blur"
 level: cg4
-brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=483597&grpid=0&isprv=0&bp=0&ou=503887"
+brightspace: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=600591&grpid=0&isprv=0&bp=0&ou=611506"
 submission: "my-assignment-folder"
 links:
 downloads: "https://www.dropbox.com/s/jyl8bb0eh0ewxks/photoshop-sharpen-and-blur.zip?dl=1"
