@@ -25,7 +25,7 @@ assignment: |
 
   <img class="size75" alt="symbols-assignment-example" src="/images/illustrator-symbols/symbols-assignment-examples.jpg">
 
-  Make sure to include a Dynamic Symbol, with variations. Include symbols which are sprayed with the Symbol Sprayer tool.
+  Make sure to include all three symbol types: a Dynamic Symbol with variations, a symbol with 9-slice scaling (horizontal, vertical, or both), and symbols which are sprayed with the Symbol Sprayer tool.
 
   Use only Adobe Fonts.
 ---
