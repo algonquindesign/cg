@@ -16,7 +16,7 @@ details: |
   
 assignment: |
 
-  ### Info Porn — Take Delight In Numbers.
+  ### Take Delight In Numbers.
 
   Choose a topic of interest. It could be baseball, motocycles, Barbie Dolls ... it's on you. Find some numbers related to it.
 
