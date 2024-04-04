@@ -56,7 +56,7 @@ details: |
   <img class="size100" alt="graph-spreadsheet" src="/images/illustrator-graph-design/graph-spreadsheet.jpg">
 
   <div class="fs15 textcenter">
-  <a href="https://docs.google.com/spreadsheets/d/1-1PeqKm-lULLPUhLXgd6nXEKY42k2C9M1-ls_r2NGcY/edit?usp=sharing" title="Copy the spreadsheet data" target="_blank" class="limegreen">Spreadsheet Data</a>
+  <a href="https://docs.google.com/spreadsheets/d/19B_6GMYLSb9WrOAA4pH2P4wkr7jsXe_tKmjjWx6lJQM/edit?usp=share_link" title="Copy the spreadsheet data" target="_blank" class="limegreen">Spreadsheet Data</a>
   </div>
 
   It's best to open the spreadsheet to copy/paste the data into the Graph Data Table. You can then click the Apply button (check mark). The graph will be drawn on the artboard. If things don't look right, click the Revert button. Fix your data file and try again.
@@ -72,7 +72,7 @@ details: |
   Let's start by building our graph before we enhance it with graph designs
 
   <div class="fs15 textcenter">
-  <a href="https://docs.google.com/spreadsheets/d/1kUVlCK-73c1cJrA8ePV7U9lv7LVmmiVujJG_4-A8krs/edit?usp=sharing" title="Copy the spreadsheet data" target="_blank" class="limegreen">Spreadsheet Data</a>
+  <a href="https://docs.google.com/spreadsheets/d/1Y2mVLFconXdb0Bi3-ve3LIH8EvYCElzzYT_4BSLbmQU/edit?usp=share_link" title="Copy the spreadsheet data" target="_blank" class="limegreen">Spreadsheet Data</a>
   </div>
 
   Illustrator Graphs really come to life when you replace the bland, greyscale shapes with novel designs. you need to define your design first. Go <span class="command">Object > Graph > Design...</span>
