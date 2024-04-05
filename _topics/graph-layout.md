@@ -39,6 +39,17 @@ assignment: |
   </figcaption>
   </figure>
 
+  ### Production Specifications
+ 
+  80% of your grade consists of making a one-page, full bleed poster that is print read. You must use Live Graphs as the base for your final charts. You can do portrait or landscape, but it must be print resolution and print colours (CMYK) all the way through.
+ 
+  - A One-Page InDesign Document
+  - 8.5 x 11 + 0.125” Bleed on all sides (No Slug)
+  - No Live Graphs in your Links (attach them separately into your final Package folder)
+  - Adobe Fonts Only
+  - Work in CMYK (both Illustrator and InDesign files)
+  - (Optional) You may include PSD images (if they are CMYK)
+
   ### Production Details
 
   #### Build Your Graph
